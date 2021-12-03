@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    Carta 
+</title>
+ <style>
+     body{
+       background-color: green;
+
+     }
+     @keyframes animacion_corazones4
+     {
+        0%{
+            top:  10px;
+            left:  20px;
+            z-index:  5;
+            opacity: 1;
+        }
+
+        100%{
+            top:  30px;
+            left:  60px;
+            transform:  rotate(20deg);
+            opacity: 0;
+        }
+     }
+     #treboles3{
+        top:  10px;
+        left:  20px;
+     }
+     #corazones4
+     {
+        animation-name: animacion_corazones4;
+        animation-duration: 1s;
+        animation-delay: 5s;
+        animation-iteration-count: 3;
+        top:  10px;
+        left:  20px;
+     }
+     .carta
+     {
+        position:  absolute;
+        
+        
+        height:  200px;
+        width:  100px;
+        background-color: rgb(230,230,230);
+        border-radius:  10px;
+        border: black 2px solid ;
+     }
+     .numeropalo
+     {
+        font-size:  20px ;
+     }
+     .numeropalo_invertido
+     {
+        
+        transform:  rotate(180deg);
+        position:  absolute;
+        bottom:  0px;
+        right:  0px;
+
+     }
+     .figura
+     {
+        position:  absolute;
+        font-size:  30px;
+
+
+     }
+     #treboles3_1
+     {
+        left:  35px;
+     }
+     #treboles3_2
+     {
+        left:  35px;
+        top: 85px;
+     }
+     #treboles3_3
+     {
+        left:  35px;
+        top: 120px;
+        transform:  rotate(180deg);
+     }
+ </style>
+</head>
+<body>
+<!--Empieza el 3 de tréboles-->
+<div class="carta" id="treboles3">
+    <!--Empieza el numeropalo de arriba izquierda-->
+    <div class="numeropalo">
+        <div class="numero">
+            3
+        </div>
+
+        <div class="palo">
+            &#9827;
+        </div>
+<!--Termina el numeropalo arriba izquierda-->
+
+    </div>
+<!--Empieza el numero palo de abajoderecha-->
+    <div class="numeropalo_invertido numeropalo">
+        <div class="numero">
+            3
+        </div>
+        <div class="palo">
+            &#9827;
+        </div>
+        <!--Termina el numero palo de abajoderecha-->
+
+    </div>
+    <div id="treboles3_1" class="figura">
+        &#9827;
+    </div>
+    <div id="treboles3_2" class="figura">
+        &#9827;
+    </div>
+    <div id="treboles3_3" class="figura">
+        &#9827;
+    </div>
+    
+
+
+    <!--Termina el 3 de tréboles-->
+
+</div>
+<!--Empiezo el 4 de corazonez-->
+<div class="carta" id="corazones4">
+
+</div>
+
+
+</body>
+</html>
