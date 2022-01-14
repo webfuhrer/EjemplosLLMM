@@ -1,0 +1,51 @@
+li {
+    display: inline;
+    width: 30px;
+    
+}
+
+* {
+    /*box-sizing: border-box;*/
+  }
+
+
+
+
+li>a {
+    padding: 20px;
+    background-color: green;
+    float: none;
+    display: block;
+    text-align: center;
+    border: 1px black solid;
+    width: 100px;
+}
+
+ul {
+    
+}
+
+@media screen and (max-width: 900px) {
+    .menu a {
+      float: left;
+    }
+
+    .parafo1 {
+      float: right;
+    }
+  }
+
+
+.pr1 {
+    
+  }
+
+.parafo1 {
+  float: left;
+  display: inline;
+    
+}
+
+.floa {
+  float: left;
+}
